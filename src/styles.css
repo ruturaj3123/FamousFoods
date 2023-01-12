@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #93c5fd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  border-bottom: 1px solid var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-weight: normal;
+  font-size: large;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+}
+
+.cities {
+  float: left;
+  width: 35%;
+  height: 70%;
+  padding: 1rem;
+}
+
+.cities p {
+  margin: 1.2rem;
+  text-align: center;
+}
+
+.cityButton {
+  display: block;
+  margin: 5vh auto;
+  width: 100px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border: 1px solid #3b82f6;
+  border-radius: 0.2rem;
+  background-color: #3b82f6;
+  font-size: large;
+  cursor: pointer;
+}
+
+.recommendations {
+  float: right;
+  width: 65%;
+  height: 70%;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+.recommendations ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recommendations li {
+  display: block;
+  width: 100%;
+  margin: 3vh auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fcfbfb;
+  border: 1px solid var(--primary-color);
+  border-radius: 3px;
+  font-size: medium;
+}
+
+.recommendations li span {
+  font-size: small;
+  font-weight: lighter;
+  margin-left: 0.5rem;
+}
